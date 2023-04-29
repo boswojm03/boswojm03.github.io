@@ -79,7 +79,7 @@ const config = {
     },
   ],
 
-  // To hide the `My Projects` section, keep it empty.
+  /*// To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
       title: 'Project Name',
@@ -96,12 +96,14 @@ const config = {
       link: 'https://example.com',
     },
   ],
-  // Display blog posts from your medium or dev account. (Optional)
+  */
+  /*// Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
+  */
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -111,7 +113,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'bumblebee',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -172,7 +174,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/boswojm03"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
